@@ -3,7 +3,7 @@ import { Component } from 'react';
 import MenuItem from '../menu-item/menu-item.component';
 import './directory.styles.scss';
 
-export default class Directory extends Component {
+class Directory extends Component {
     constructor() {
         super();
 
@@ -54,3 +54,5 @@ export default class Directory extends Component {
         </div>
     )}
 }
+
+export default Directory;
