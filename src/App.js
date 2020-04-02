@@ -33,7 +33,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <Header></Header>
+        <Header currentUser={this.state.currentUser}></Header>
         <Switch>
           <Route exact path='/' component={HomePage}></Route>
           <Route path='/shop' component={ShopPage}></Route>
