@@ -33,7 +33,7 @@ class App extends Component {
               ...snapShot.data()
           });
         });
-      } 
+      }
       
       setCurrentUser(userAuth);
     });
